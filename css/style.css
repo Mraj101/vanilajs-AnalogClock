@@ -19,10 +19,13 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    background-color: rebeccapurple;
 }
 .clock{
     width: 45vh;
     height: 45vh;
     border: 2px solid black;
     border-radius: 50%;
+    background: url("/img/126899277_1308670496146190_475893009200009706_n.png");
+    background-size: contain;
 }
