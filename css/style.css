@@ -3,7 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-div{
-    border: 2px solid red;
+body{
+    background-color:rgb(175, 118, 127);
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+    border: 2px solid red;
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.clock{
+    width: 45vh;
+    height: 45vh;
+    border: 2px solid black;
+    border-radius: 50%;
 }
