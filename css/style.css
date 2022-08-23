@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#85b953;
+    background-color:#cf6a3b;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ body{
     justify-content: center;
     border-radius: 50%;
     box-shadow: 15px 15px 30px black,
-                -15px -15px 30px #68a034;
+                -15px -15px 30px #dd7119;
     background-color: rgb(175, 118, 127);
 
     /* transform: scale(1.2); */
