@@ -31,7 +31,7 @@ body{
     height: 55vh;
     border: 1px solid black;
     border-radius: 50%;
-    background: url(../img/126899277_1308670496146190_475893009200009706_n.png);
+    background: url(../img/5054.png);
     background-position: center;
     background-size: cover;
     box-shadow:inset 15px 15px 30px rgb(37, 37, 37),
@@ -42,22 +42,50 @@ body{
     
 }
 .hours{
-    width: 15%;
-    height: 15%;
+    width: 45%;
+    height: 50%;
+}
+.hours::before{
+    position: absolute;
+    content: '';
+    height: 50%;
+    width: 5%;
+    background-color: black;
+    z-index: 10;
+    border-radius: 50%;
+
 }
 .minutes{
-    width:35%;
-    height:35%;
+    width:70%;
+    height:70%;
+}
+.minutes::before{
+    position: absolute;
+    content: '';
+    height: 50%;
+    width:2%;
+    background-color: black;
+    z-index: 20;
+    border-radius: 50%;
+
+
 }
 .seconds{
-    width:50%;
-    height:50%;
+    width:80%;
+    height:80%;
+}
+.seconds::before{
+    position: absolute;
+    content: '';
+    height:60%;
+    width: 1.2%;
+    background-color: black;
+    z-index: 30;
+    border-radius: 50%;
 }
 .hours,.minutes,.seconds{
-    border: 2px solid black;
     position: absolute;
     display: flex;
-    align-items: center;
     justify-content: center;
     
 }
@@ -68,4 +96,5 @@ body{
     border-radius: 50%;
     outline: 1px solid white;
     background-color: black;
+    z-index: 100;
 }
