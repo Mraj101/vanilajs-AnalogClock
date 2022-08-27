@@ -98,3 +98,16 @@ body{
     background-color: black;
     z-index: 100;
 }
+
+
+/* media queries */
+@media screen and (max-width:1200px) {
+    .container{
+        width: 65vw;
+        height:65vw;
+    }
+    .clock{
+        height: 50vw;
+        width: 50vw;
+    }
+}
