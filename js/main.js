@@ -15,3 +15,16 @@ setInterval(()=>{
     seconds.style.transform=`rotatez(
         ${sec}deg)`
 });
+/* simplified rotating calculation:
+*12 hours to complete 1 full rotation which is 360 degrees
+*so 360/12= 30              [30 degrees in 1 hour]
+
+{but how many degree in 1 minutes?????}
+
+if 60 minutes is 30 degrees movement than 1 minutes will be 60/30=.5 [0.5 degree movement]
+*1 hour is 60 minutes
+   - 1 minutes or 60 seconds when the stick of second moves 360 degrees
+   - so 360/60=6 degrees ,   [6 degrees in 1 seconds]
+
+
+*/
